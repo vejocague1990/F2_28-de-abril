@@ -103,6 +103,7 @@ section .art1{
     height: 250px;
     border: 2px solid rgba(0, 0, 0, 0.151); 
     margin-right: 1em;
+    background-size: cover;
 }
 .data-person ul li{
     margin-top: 1em;
