@@ -110,3 +110,14 @@ section .art1{
     line-height: 30px;
     list-style: none;
 }
+
+footer{
+    margin-top: 5em;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(31, 88, 4);
+    color:#ffeffe;
+    text-align: center;
+    
+}
