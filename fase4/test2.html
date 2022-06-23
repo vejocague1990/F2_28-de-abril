@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="temas.html">Temas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="recursosMulti.html">Recursos Multimedia</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Aprendizaje
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="test1.html">Actividad evaluativa 1</a></li>
+                      <li><a class="dropdown-item" href="tema2.html">Actividad evaluativa 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+   
+    <section>
+      <div class="container">
+        <form action="">
+
+          <label for="inputPassword5" class="form-label"> <b>¿ Que significa HTML ?</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">Texto Interactivo Para Paginas Web</option>
+            <option value="2">Lenguaje de marcas de hipertexto</option>
+            <option value="3">Hipertexto Multimedia con links</option>
+            <option value="4">Comandos de Hipertexto</option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> <b>Siglas de CPU</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">Computadora Personal Universitaria</option>
+            <option value="2">Unidad Central de Procesamiento</option>
+            <option value="3">Unidad de computadora</option>
+            <option value="4">Unidad capaz de Procesar datos</option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> <b>¿Cuál de estos no es un navegador de Internet ?</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">Internet Explorer</option>
+            <option value="2">Yahoo</option>
+            <option value="3">Zafari</option>
+            <option value="4">Mozilla</option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> <b>El diseño y construcción de objetos tienen que ver con</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">La ciencia</option>
+            <option value="2">La tecnología</option>
+            <option value="3">La técnica</option>
+            <option value="4">Los razonamientos</option>
+          </select>
+
+          <button class="btn btn-primary" type="submit" onclick="validation()">Calificar</button>
+        </form>
+      </div> 
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script>
+  function validation(){
+    var select = document.getElementById('select');
+
+
+    if(select.value==2){
+      alert('Todas son correctas')
+    }else if (select.value!=2) {
+      alert('Algunas preguntas son incorrectas')
+    }
+
+  }
+</script>
+</body>
+</html>

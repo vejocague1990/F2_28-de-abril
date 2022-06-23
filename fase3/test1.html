@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="temas.html">Temas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="recursosMulti.html">Recursos Multimedia</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Aprendizaje
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="test1.html">Actividad evaluativa 1</a></li>
+                      <li><a class="dropdown-item" href="test2.html">Actividad evaluativa 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+      <div class="container">
+        <form >
+          <label for="inputPassword5" class="form-label"> <b>Como se incio el internet</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select" aria-placeholder="">
+            <option selected></option>
+            <option value="1">enlazar la investigación militar por medio de una red interactiva llamada Arpanet</option>
+            <option value="2">por accidente</option>
+            <option value="3">Reinciando el computador</option>
+            <option value="4">Ninguna de las anteriores</option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> <b>Cual era la resposabilidad de las computadoras</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">Eran las responsables de garantizar la comunicación</option>
+            <option value="2">Crear en el ser humano un pensamiento crítico, matemático y tecnológico. </option>
+            <option value="3">La creación de nuevos inventos que revolucionen el mundo tecnológico.</option>
+            <option value="4">Busca resolver problemas y satisfacer las necesidades del ser humano. </option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> <b>Que significa WWW</b></label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1">World Wide Web</option>
+            <option value="2">Wide World Web</option>
+            <option value="3">Web World Wide</option>
+            <option value="4">We Will Wait</option>
+          </select>
+
+          <label for="inputPassword5" class="form-label"> 
+            <b>Podemos conciderar la llamada revolución digital es consecuencia de la aparición de las 
+            computadoras en la vida de las personas</b>
+          </label>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="select">
+            <option selected></option>
+            <option value="1"> Verdadero</option>
+            <option value="2"> Falso</option>
+          </select>
+          <button class="btn btn-primary" type="submit" onclick="validation()">Calificar</button>
+      </form>
+    
+      </div> 
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script>
+  function validation(){
+    var select = document.getElementById('select');
+
+
+    if(select.value==1){
+      alert('Todas son correctas')
+    }else if (select.value!=1) {
+      alert('Algunas preguntas son incorrectas')
+    }
+
+  }
+</script>
+</body>
+</html>
