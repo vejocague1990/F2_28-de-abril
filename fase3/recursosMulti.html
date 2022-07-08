@@ -1,76 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .options{
-            display: flex;
-        }
-        
-        .options ul li {
-            list-style: none;
-            margin: 20px;
-            display: inline-block;
-        }.options a{
-            text-decoration: none;
-            color:#000000;
-            margin-bottom: 1em;
-            font-weight: 500;
-        }
-        .options a:hover{
-            text-decoration: none;
-            color: rgb(31, 88, 4);  
-        }
-    </style>
-    <title>Fase3</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <style>
+    .options{
+      display: flex;
+    }
+    .options ul li {
+      list-style: none;
+      margin: 20px;
+      display: inline-block;
+    }
+    .options a{
+      text-decoration: none;
+      color:#000000;
+      margin-bottom: 1em;
+      font-weight: 500;
+    }
+    .options a:hover{
+      text-decoration: none;
+      color: rgb(31, 88, 4);  
+    }
+  </style>
+  <title>Fase3</title>
 </head>
 <body>
-    <header>
-        <h1 class="logo">Magzine tecnologico actual</h1>
-        <nav>
-            <ul><li><a href="index.html">Inicio</a></li></ul>
-            <ul><li><a href="temas.html"> Temas</a></li></ul>
-            <ul><li><a href="recursosMulti.html">Recursos Multimedia</a></li></ul>
-            <ul>
-                <li></li><a href="#">Aprendizaje</a></li>
-                    <ol>
-                        <li><a href="test1.html">Actividad evaluativa 1</a></li>
-                        <br>
-                        <li><a href="test2.html">Actividad evaluativa 2</a></li>
-                    </ol>
-            </ul>
-            <ul><li><a href="autor.html">Autor</a></li></ul>
-        </nav>
-    </header>
+  <header>
+    <h1 class="logo">Magzine tecnologico actual</h1>
+    <nav class="navLinks">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="temas.html"> Temas</a></li>
+        <li><a href="recursosMulti.html">Recursos Multimedia</a></li>
+          <ul>  
+            <ol>
+              <li><a href="#">Aprendizaje</a></li>
+              <li><a href="test1.html">Actividad evaluativa 1</a></li>
+              <li><a href="test2.html">Actividad evaluativa 2</a></li>
+            </ol>
+          </ul>
+        <li><a href="autor.html">Autor</a></li>
+      </ul>
+    </nav>
+  </header>
        
-    <div class="container">
-        <div>
-            <div class="options">
-               <ul>
-                   <li><a href="recursosMulti.html">Videos</a></li>
-                   <li><a href="podcast.html">podcast</a></li>
-               </ul>
-            </div>
-        </div>
-        <section>
-            <article class="art1">
-                <iframe src="https://www.youtube.com/embed/K7WsAAvPJdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/g5ygofAOP68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/6TRKzIWcRds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/jtfyBwp3I5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/w5zvh6UThwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe src="https://www.youtube.com/embed/QjMJsQx_O7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </article>                
-        </section>
-        <aside>
-            <iframe src="https://www.facebook.com/unadceadsantamarta" frameborder="0"></iframe>
-        </aside>
+  <div class="container">
+    
+    <div>
+      <div class="options">
+        <ul>
+          <li><a href="recursosMulti.html">Videos</a></li>
+          <li><a href="podcast.html">podcast</a></li>
+        </ul>
+      </div>
     </div>
-    <footer>
-        <p>pie de pagina </p>
-    </footer>
+
+    <section>
+      <article class="art1">
+        <iframe src="https://www.youtube.com/embed/K7WsAAvPJdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/g5ygofAOP68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/6TRKzIWcRds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/jtfyBwp3I5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/w5zvh6UThwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/QjMJsQx_O7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>                
+    </section>
+
+    <aside>
+      <iframe src="https://www.facebook.com/unadceadsantamarta" frameborder="0"></iframe>
+    </aside>
+  </div>
+
+  <footer>
+    <p>pie de pagina </p>
+  </footer>
 </body>
 </html>

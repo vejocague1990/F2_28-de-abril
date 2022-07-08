@@ -7,32 +7,6 @@
 
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: rgb(31, 88, 4);
-}
-.logo{
-    margin-right: auto;
-    font-size: 1.5em;
-    color:#ffeffe
-}
-nav{
-    display:flex;
-}
-nav ul{
-    margin: 15px;
-    list-style: none;
-}
-nav ul li{
-    display: inline-block;
-}
-nav ul a{
-    text-decoration: none;
-    color:#ffeffe
-}
 .container{
     display: flex;
 }
